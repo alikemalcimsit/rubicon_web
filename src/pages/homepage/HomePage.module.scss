@@ -1,0 +1,61 @@
+body{
+ background-image: linear-gradient(177.84deg, #5e5e5e, #6e767b,#06283d);
+ background-attachment: fixed;
+}
+
+
+.content{
+    margin-top: 10%;
+    margin-left: 50px ;
+    margin-right: 50px;
+    display: flex;
+    align-items: center;
+    
+}
+.resim{
+    display: flex;
+    height: 270px;
+    margin-right: 50px;
+
+    margin-top: 20px;
+}
+.yazı{
+    color: white;
+}
+
+
+/* tablet tasarım kodları */
+@media only screen and (max-width:992px){
+   .content{
+    display: flex;
+    flex-direction: column;
+   }
+
+   .resim{
+    display: flex;
+    height: 250px;
+    margin-bottom: 50px;
+   }
+    
+    }
+
+
+
+
+
+
+    /* telefon tasarım kodları */
+@media only screen and (max-width:768px){
+ .resim{
+    height: 180px;
+ }
+ body{
+
+margin: 0;
+padding: 0;
+ }
+
+ 
+}
+
+
